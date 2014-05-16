@@ -1,0 +1,12 @@
+Source: ros-groovy-designator-integration
+Section: misc
+Priority: extra
+Maintainer: winkler <winkler@todo.todo>
+Build-Depends: debhelper (>= 7.0.50~), ros-groovy-catkin, ros-groovy-designator-integration-msgs, ros-groovy-roscpp
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-groovy-designator-integration
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-groovy-designator-integration-msgs, ros-groovy-roscpp
+Description: The designator_integration package
